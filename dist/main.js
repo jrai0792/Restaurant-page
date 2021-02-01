@@ -10,6 +10,6 @@
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-eval("alert(\"Welcome to Food Coma!!\")\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("\nfunction addNavBar() {\n  const content = document.getElementById(\"content\");\n  let div = document.createElement(\"div\");\n  div.classList.add = \"flex\";\n  div.classList.add = \"navbar\";\n  let anchor = document.createElement(\"a\");\n  anchor.href = \"#\";\n  anchor.innerText = \"Home\";\n  div.appendChild(anchor);\n\n  let anchor1 = document.createElement(\"a\");\n  anchor1.href =\"#\";\n  anchor1.innerText = \"Menu\";\n  div.appendChild(anchor1);\n\n  let anchor2 = document.createElement(\"a\");\n  anchor2.href = \"#\";\n  anchor2.innerText = \"Contact\";\n  div.appendChild(anchor2);\n  content.appendChild(div);\n\n}\n\naddNavBar();\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 /******/ })()
 ;
