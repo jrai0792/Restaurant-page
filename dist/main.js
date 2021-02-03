@@ -16,7 +16,17 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_nav__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/nav */ \"./src/modules/nav.js\");\n/* harmony import */ var _modules_nav__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modules_nav__WEBPACK_IMPORTED_MODULE_0__);\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_nav__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/nav */ \"./src/modules/nav.js\");\n/* harmony import */ var _modules_nav__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modules_nav__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/home */ \"./src/modules/home.js\");\n/* harmony import */ var _modules_home__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_home__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/home.js":
+/*!*****************************!*\
+  !*** ./src/modules/home.js ***!
+  \*****************************/
+/***/ (() => {
+
+eval("const homePage = () => {\n  const content = document.getElementById('content');\n\n  const main = document.createElement('main');\n  main.classList.add('home-page');\n\n  const div = document.createElement('div');\n\n  const subHead = document.createElement('h2');\n  subHead.innerText = \"Welcome to Food Coma!! We serve : \";\n\n  const serveList = document.createElement('h3');\n  serveList.innerHTML = '<span>Breakfast</span> <br> <span>Lunch</span> <br> <span>Dinner</span> ';\n\n  const btn = document.createElement('button');\n  btn.classList.add('btn-menu');\n  btn.innerText = \"Check Menu\";\n\n  div.appendChild(subHead);\n  div.appendChild(serveList);\n  \n  div.appendChild(btn);\n  main.appendChild(div);\n  content.appendChild(main);\n}\n\nhomePage();\n\n//# sourceURL=webpack://restaurant-page/./src/modules/home.js?");
 
 /***/ }),
 
@@ -26,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mod
   \****************************/
 /***/ (() => {
 
-eval("function addNavBar() {\n  const content = document.getElementById(\"content\");\n  const container = document.createElement(\"div\");\n  container.setAttribute('class','container');\n  const navbar = document.createElement(\"nav\");\n  navbar.setAttribute('class','navbar');\n  const logo = document.createElement(\"h2\");\n  logo.textContent = \"Food Coma\";\n  const ul = document.createElement(\"ul\");\n  ul.setAttribute('class','navbar-nav, flex');\n  const liHome = document.createElement(\"li\");\n  liHome.setAttribute('class','nav-item');\n  const aHome = document.createElement(\"a\");\n  aHome.href = \"#\";\n  aHome.innerText = \"Home\";\n  aHome.classList.add(\"nav-link\");\n  const liMenu = document.createElement(\"li\");\n  liMenu.setAttribute('class','nav-item');\n  const aMenu = document.createElement(\"a\");\n  aMenu.href = \"#\";\n  aMenu.innerText = \"Menu\";\n  aMenu.classList.add(\"nav-link\");\n  const liInfo = document.createElement('li');\n  liInfo.setAttribute('class','nav-item');\n  const aInfo = document.createElement('a');\n  aInfo.href = \"#\";\n  aInfo.innerText = \"Info\";\n  aInfo.classList.add(\"nav-link\");\n  liInfo.appendChild(aInfo);\n  liMenu.appendChild(aMenu);\n  liHome.appendChild(aHome);\n  ul.appendChild(liHome);\n  ul.appendChild(liMenu);\n  ul.appendChild(liInfo);\n  navbar.appendChild(logo);\n  navbar.appendChild(ul);\n  container.appendChild(navbar);\n  content.appendChild(container);\n\n}\n\naddNavBar();\n\n//# sourceURL=webpack://restaurant-page/./src/modules/nav.js?");
+eval("function addNavBar() {\n  const content = document.getElementById(\"content\");\n  const container = document.createElement(\"div\");\n  container.setAttribute('class','container');\n  const navbar = document.createElement(\"nav\");\n  navbar.setAttribute('class','navbar');\n  const logo = document.createElement(\"h1\");\n  logo.textContent = \"Food Coma\";\n  const ul = document.createElement(\"ul\");\n  ul.setAttribute('class','navbar-nav, flex');\n  const liHome = document.createElement(\"li\");\n  liHome.setAttribute('class','nav-item');\n  const aHome = document.createElement(\"a\");\n  aHome.href = \"#\";\n  aHome.innerText = \"Home\";\n  aHome.classList.add(\"nav-link\");\n  const liMenu = document.createElement(\"li\");\n  liMenu.setAttribute('class','nav-item');\n  const aMenu = document.createElement(\"a\");\n  aMenu.href = \"#\";\n  aMenu.innerText = \"Menu\";\n  aMenu.classList.add(\"nav-link\");\n  const liInfo = document.createElement('li');\n  liInfo.setAttribute('class','nav-item');\n  const aInfo = document.createElement('a');\n  aInfo.href = \"#\";\n  aInfo.innerText = \"Info\";\n  aInfo.classList.add(\"nav-link\");\n  liInfo.appendChild(aInfo);\n  liMenu.appendChild(aMenu);\n  liHome.appendChild(aHome);\n  ul.appendChild(liHome);\n  ul.appendChild(liMenu);\n  ul.appendChild(liInfo);\n  navbar.appendChild(logo);\n  navbar.appendChild(ul);\n  container.appendChild(navbar);\n  content.appendChild(container);\n\n}\n\naddNavBar();\n\n//# sourceURL=webpack://restaurant-page/./src/modules/nav.js?");
 
 /***/ })
 

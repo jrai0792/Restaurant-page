@@ -4,7 +4,7 @@ function addNavBar() {
   container.setAttribute('class','container');
   const navbar = document.createElement("nav");
   navbar.setAttribute('class','navbar');
-  const logo = document.createElement("h2");
+  const logo = document.createElement("h1");
   logo.textContent = "Food Coma";
   const ul = document.createElement("ul");
   ul.setAttribute('class','navbar-nav, flex');
