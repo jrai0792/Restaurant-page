@@ -5,6 +5,7 @@ const homePage = () => {
   main.classList.add('home-page');
 
   const div = document.createElement('div');
+  div.classList.add('home-div');
 
   const subHead = document.createElement('h2');
   subHead.innerText = "Welcome to Food Coma!! We serve : ";

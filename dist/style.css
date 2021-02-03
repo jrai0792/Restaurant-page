@@ -17,7 +17,6 @@ h1 {
 a {
   text-decoration: none;
   font-size: 20px;
-  /* font-weight: bold; */
   color: #fff;
 }
 a:hover {
@@ -26,4 +25,29 @@ a:hover {
 
 .flex {
   display: flex;
+}
+
+/* HomePage Style  */
+
+.home-page {
+  width: 50%;
+  margin: auto;
+  border: 1px solid #fff;
+  padding: 20px 15px;
+  background-color: #9e9595;
+  opacity: 0.6;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  border-radius: 20px;
+}
+
+.home-div {
+  text-align: center;
+  color: #000;
+}
+
+.btn-menu {
+  padding: 5px 10px;
+  border-radius: 10px;
 }
