@@ -37,5 +37,4 @@ document.addEventListener('DOMContentLoaded', () => {
   home.addEventListener('click', showHome);
   menu.addEventListener('click', showMenu);
   info.addEventListener('click', showInfo);
-
 });

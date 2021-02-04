@@ -21,7 +21,7 @@ a {
   color: #fff;
 }
 a:hover {
-  color: rgb(5, 82, 5);
+  color: rgb(24, 26, 24);
 }
 
 .flex {
@@ -84,4 +84,39 @@ ul {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 0;
+}
+
+/* info page */
+
+.info-section {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.form {
+  padding: 20px;
+}
+
+#email {
+  padding: 5px;
+  width: 30%;
+}
+
+#message {
+  margin-top: 20px;
+  margin-bottom:40px;
+  padding:20px;
+  width: 30%;
+  height: 250px;
+}
+
+.info-ul {
+  
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
 }

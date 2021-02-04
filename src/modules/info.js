@@ -4,21 +4,26 @@ const Info = (() => {
     const section = document.createElement('section');
     section.setAttribute('id', 'info-section');
     section.setAttribute('class', 'info-section');
-    const infoHead = document.createElement('h2');
+    const infoHead = document.createElement('h3');
+    infoHead.setAttribute('class', 'info-head');
     infoHead.innerText = "Send your queries, our team will reach out to you soon!!";
     const formDiv = document.createElement('div');
     formDiv.setAttribute('id', 'form-div');
     const form = document.createElement('form');
+    form.setAttribute('class', 'form');
     const email = document.createElement('input');
     email.setAttribute('type', 'email');
     email.setAttribute('name','email address');
     email.setAttribute('placeholder', 'Email');
+    email.setAttribute('id', 'email');
     const message = document.createElement('input');
     message.setAttribute('type', 'text');
     message.setAttribute('name', 'message');
-    message.setAttribute('placeholder','Write your message here.')
+    message.setAttribute('placeholder','Write your message here.');
+    message.setAttribute('id', 'message');
     const btn = document.createElement('button');
     btn.setAttribute('type','submit');
+    btn.textContent="Submit";
 
     const infoExtra = document.createElement('div');
     infoExtra.setAttribute('id','info-extra');
@@ -44,10 +49,12 @@ const Info = (() => {
     li5.setAttribute('class','info-li');
 
 
-    const br = document.createElement('br');
+    const br1 = document.createElement('br');
+    const br2 = document.createElement('br');
     form.appendChild(email);
-    form.appendChild(br);
+    form.appendChild(br1);
     form.appendChild(message);
+    form.appendChild(br2);
     form.appendChild(btn);
     formDiv.appendChild(form);
     section.appendChild(infoHead);
