@@ -18,7 +18,7 @@ const Nav = (() => {
     aHome.innerText = 'Home';
     aHome.classList.add('nav-link');
     aHome.setAttribute('id', 'home');
-    aHome.setAttribute('class', 'nav-link, active');
+    aHome.setAttribute('class', 'nav-link');
     const liMenu = document.createElement('li');
     liMenu.setAttribute('class', 'nav-item');
     const aMenu = document.createElement('a');

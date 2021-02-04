@@ -2,9 +2,7 @@
 
 > The website is built using Javascript and Webpack. The website has three tabs in the navbar that navigates to the three sections of the website : home, menu and info. The home tab navigates to the website home page, the menu tab displays the restaurant menu and the info tab displays the contact information of the restaurant and a form as well. The form can be submitted to the website with foloowing information: name, email and location.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](./screenshot.png)
 
 ## Built With
 
@@ -14,29 +12,16 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](http://127.0.0.1:5500/dist/index.html)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+1. Navigate to the folder where you want to want to clone the repository and run git clone https://github.com/jrai0792/Restaurant-page
+2. cd Restaurant-page
+3. npm install
 
 
 ## Authors
