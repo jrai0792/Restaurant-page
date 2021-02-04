@@ -8,6 +8,7 @@ function addNavBar() {
   logo.textContent = "Food Coma";
   const ul = document.createElement("ul");
   ul.setAttribute('class','navbar-nav, flex');
+  ul.
   const liHome = document.createElement("li");
   liHome.setAttribute('class','nav-item');
   const aHome = document.createElement("a");
