@@ -1,9 +1,13 @@
 const Menu = (() => {
   const menuList = () => {
     const container = document.getElementById('content');
+    const  div = document.createElement('div');
+    div.classList.add('menu-div');
+    const menuHead = document.createElement('h3');
+    menuHead.setAttribute('class', 'menu-head');
+    menuHead.textContent = "Food Coma Menu";
     const menu = document.createElement('div');
     menu.classList.add('menu');
-  
     const breakDiv = document.createElement('div');
     breakDiv.classList.add('div-break');
     const h1 = document.createElement('h2');
@@ -96,12 +100,14 @@ const Menu = (() => {
     dinnerUl.appendChild(dinnerList5);
     dinnerDiv.appendChild(h3);
     dinnerDiv.appendChild(dinnerUl);
-  
+    
     menu.appendChild(breakDiv);
     menu.appendChild(lunchDiv);
     menu.appendChild(dinnerDiv);
 
-    container.appendChild(menu);
+    div.appendChild(menuHead);
+    div.appendChild(menu);
+    container.appendChild(div);
   
   };
 

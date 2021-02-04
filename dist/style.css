@@ -2,6 +2,7 @@ body {
   background-image: url('main-background.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
 }
 
 li {
@@ -35,7 +36,7 @@ a:hover {
   border: 1px solid #fff;
   padding: 20px 15px;
   background-color: #9e9595;
-  opacity: 0.6;
+  opacity: 0.9;
   position: absolute;
   top: 40%;
   left: 25%;
@@ -50,4 +51,37 @@ a:hover {
 .btn-menu {
   padding: 5px 10px;
   border-radius: 10px;
+}
+
+/* Menu page */
+
+.menu-div {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  background-color: #9e9595;
+  opacity: 0.9;
+  padding: 60px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  color: #000;
+  font-size: 18px;
+}
+.menu {
+  display: flex;
+  justify-content:space-between;
+}
+
+.menu-head {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0;
 }
