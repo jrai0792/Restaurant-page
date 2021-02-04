@@ -1,6 +1,7 @@
 import Nav from './modules/nav';
 import Home from './modules/home';
 import Menu from './modules/menu';
+import Info from './modules/info';
 
 function clearContent() {
   const content =document.getElementById('content');
@@ -21,6 +22,11 @@ const showMenu = () => {
   Menu.menuList();
 }
 
+const showInfo = () => {
+  clearContent();
+  Info.infoDetails();
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   Nav.addNavBar();
   Home.homePage();
@@ -30,5 +36,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   home.addEventListener('click', showHome);
   menu.addEventListener('click', showMenu);
+  info.addEventListener('click', showInfo);
 
 });
