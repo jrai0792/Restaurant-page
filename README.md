@@ -12,14 +12,14 @@
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/jrai0792/Restaurant-page.git)
+[Live Demo Link](http://127.0.0.1:5500/dist/index.html)
 
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-1. Navigate to the folder where you want to want to clone the repository and run git clone https://github.com/jrai0792/Restaurant-page
+1. Navigate to the folder where you want to want to clone the repository and run git clone https://github.com/jrai0792/Restaurant-page.git
 2. cd Restaurant-page
 3. npm install
 
