@@ -78,19 +78,19 @@ const Menu = (() => {
     dinnerUl.classList.add('dinner-ul');
     const dinnerList1 = document.createElement('li');
     dinnerList1.setAttribute('class', 'dinner-list');
-    dinnerList1.textContent = 'Quinoa Bowl';
+    dinnerList1.textContent = 'Salad Bowl';
     const dinnerList2 = document.createElement('li');
     dinnerList2.setAttribute('class', 'dinner-list');
-    dinnerList2.textContent = 'Chicken Biryani';
+    dinnerList2.textContent = 'Sandwich';
     const dinnerList3 = document.createElement('li');
     dinnerList3.setAttribute('class', 'dinner-list');
     dinnerList3.textContent = 'Khichdi';
     const dinnerList4 = document.createElement('li');
     dinnerList4.setAttribute('class', 'dinner-list');
-    dinnerList4.textContent = 'Rice Sambhar';
+    dinnerList4.textContent = 'Pasta';
     const dinnerList5 = document.createElement('li');
     dinnerList5.setAttribute('class', 'dinner-list');
-    dinnerList5.textContent = 'Tacos';
+    dinnerList5.textContent = 'Noodles';
 
 
     dinnerUl.appendChild(dinnerList1);

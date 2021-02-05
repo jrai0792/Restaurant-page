@@ -3,12 +3,12 @@ import Home from './modules/home';
 import Menu from './modules/menu';
 import Info from './modules/info';
 
-function clearContent() {
+const clearContent = () => {
   const content = document.getElementById('content');
   const navItems = document.querySelectorAll('nav li');
   content.removeChild(content.lastChild);
   navItems.forEach(navItems => navItems.classList.remove('active'));
-}
+};
 
 const showMenu = () => {
   clearContent();
